@@ -1,0 +1,25 @@
+{
+  "name": "ui-spec-md-doc",
+  "version": "0.1.0",
+  "description": "Document for ui-spec-md",
+  "main": "index.js",
+  "scripts": {
+    "generate": "ui-spec-md generate -m md -d dist/public -t theme/standard",
+    "edit-server": "ui-spec-md edit-server -m md -d dist/edit",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pxgrid/ui-spec-md-doc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pxgrid/ui-spec-md-doc/issues"
+  },
+  "homepage": "https://github.com/pxgrid/ui-spec-md-doc#readme",
+  "dependencies": {
+    "ui-spec-md": "^0.3.2"
+  }
+}
